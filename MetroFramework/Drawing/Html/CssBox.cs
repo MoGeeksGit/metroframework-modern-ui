@@ -2,7 +2,7 @@
  * A Professional HTML Renderer You Will Use
  * 
  * The BSD License (BSD)
- * Copyright (c) 2011 Jose Menendez Póo, http://www.codeproject.com/Articles/32376/A-Professional-HTML-Renderer-You-Will-Use
+ * Copyright (c) 2011 Jose Menendez PÃ³o, http://www.codeproject.com/Articles/32376/A-Professional-HTML-Renderer-You-Will-Use
  * 
  * Redistribution and use in source and binary forms, with or without modification, are 
  * permitted provided that the following conditions are met:
@@ -1924,7 +1924,7 @@ namespace MetroFramework.Drawing.Html
         #region Properties
 
         /// <summary>
-        /// Gets the • box
+        /// Gets the Â• box
         /// </summary>
         public CssBox ListItemBox
         {
@@ -2350,7 +2350,7 @@ namespace MetroFramework.Drawing.Html
                     }
                     else
                     {
-                        _listItemBox.Text = "•";
+                        _listItemBox.Text = "?";
                     }
                     
                     _listItemBox.MeasureBounds(g);
@@ -2931,7 +2931,7 @@ namespace MetroFramework.Drawing.Html
             {
                 b.OffsetTop(amount);
             }
-            //TODO: Aquí me quede: no se mueve bien todo (probar con las tablas rojas)
+            //TODO: AquÃ­ me quede: no se mueve bien todo (probar con las tablas rojas)
             Location = new PointF(Location.X, Location.Y + amount);
         }
 
